@@ -1,10 +1,10 @@
 <?php
 
-echo "## 4.1.1. Sintaxis de Java\n";
-echo "Java es un lenguaje de tipado fuerte y orientado a objetos, donde todo el código debe residir dentro de una clase.\n\n";
-echo "* Reglas clave: Distingue entre mayúsculas y minúsculas (case-sensitive) y cada instrucción finaliza estrictamente con un punto y coma (;).\n";
-echo "* Punto de entrada: Cualquier aplicación ejecutable requiere el método raíz 'public static void main(String[] args)'.\n";
-echo "* Variables: Se debe declarar el tipo de dato antes de su nombre (ej. int edad = 25;).\n\n";
+echo "## 4.1.1. Sintaxis de Java <br>";
+echo "Java es un lenguaje de tipado fuerte y orientado a objetos, donde todo el código debe residir dentro de una clase.<br>";
+echo "* Reglas clave: Distingue entre mayúsculas y minúsculas (case-sensitive) y cada instrucción finaliza estrictamente con un punto y coma (;).<br>";
+echo "* Punto de entrada: Cualquier aplicación ejecutable requiere el método raíz 'public static void main(String[] args)'.<br>";
+echo "* Variables: Se debe declarar el tipo de dato antes de su nombre (ej. int edad = 25;).<br>";
 
 echo "## 4.1.2. Estructuras Repetitivas\n";
 echo "Se utilizan para ejecutar un bloque de código múltiples veces mientras se cumpla una condición:\n\n";
@@ -24,7 +24,7 @@ echo "* Constructor: Un método especial con el mismo nombre de la clase que se 
 echo "## 4.1.4. Herencia\n";
 echo "Es el mecanismo que permite a una clase nueva (clase hija o subclase) adoptar los atributos y métodos de una clase existente (clase padre o superclase), promoviendo la reutilización de código.\n\n";
 echo "* Sintaxis: Se implementa utilizando la palabra clave extends.\n";
-echo "  public class Perro extends Animal { // hereda de Animal }\n\n";
+echo "* public class Perro extends Animal { // hereda de Animal }\n\n";
 echo "* Palabra clave super: Se utiliza para invocar al constructor o a los métodos de la clase padre desde la clase hija.\n";
 echo "* Sobreescritura (@Override): Permite a la clase hija modificar el comportamiento de un método heredado para adaptarlo a sus propias necesidades.\n";
 ?>
